@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<h1>Found with skill <strong>'{{ title }}'</strong>: {{ count }}</h1>
+{% for card in cards %}
+<p><a href="/candidate/{{ card['id'] }}">{{ card['name'] }}</a></p>
+{% endfor %}
+</body>
+</html>

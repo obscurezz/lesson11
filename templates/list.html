@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+<h1>All candidates</h1>
+{% for item in items %}
+<p><a href="/candidate/{{ item[0] }}">{{ item[1] }}</a></p>
+{% endfor %}
+</body>
+</html>
