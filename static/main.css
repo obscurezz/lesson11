@@ -1,0 +1,23 @@
+h1 {
+    border-width: 2px;
+    border-style: double;
+    border-color: darkcyan;
+    background-color: beige;
+    text-decoration: underline;
+    font-family: "Arial";
+    font-size: 24px;
+    color: black;
+    margin-bottom: 2px;
+
+}
+
+p {
+    background-color: azure;
+    font-family: "Arial Narrow";
+    font-size: 18px;
+    color: black;
+    margin-bottom: 2px;
+    border-style: double;
+    border-color: darkcyan;
+
+}
